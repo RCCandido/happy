@@ -51,3 +51,19 @@ function selectImage(event) {
     // adicionar a classe .active para este botao clicado
     button.classList.add('active');
 }
+
+function alertCovid() {
+    alert("Devido às restrições do COVID-19 solicitamos que caso você traga alguma ajuda informe no contato. Obrigado!");
+    
+    // ES6 Modules or TypeScript
+    //import Swal from 'sweetalert2'
+
+    // CommonJS
+    /*const Swal = require('sweetalert2')
+    Swal.fire({
+        title: 'Error!',
+        text: 'Do you want to continue',
+        icon: 'error',
+        confirmButtonText: 'Cool'
+      })*/
+}

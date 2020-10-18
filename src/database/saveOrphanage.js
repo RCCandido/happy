@@ -23,5 +23,4 @@ function saveOrphanage(db, orphanage) {
     );
 `);
 }
-
 module.exports = saveOrphanage;

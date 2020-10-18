@@ -76,6 +76,7 @@ module.exports = {
                 instructions: fields.instructions,
                 opening_hours: fields.opening_hours,
                 open_on_weekends: fields.open_on_weekends,
+                help: fields.help,
             })
 
             // redirecionamento

@@ -3,6 +3,8 @@ const saveOrphanage = require('./saveOrphanage');
 
 Database.then(async db => {
     
+    await db.all("DROP TABLE orphanages")
+
     // inserir dados na tabela
     /*await saveOrphanage(db, {
         lat: "-25.4328122",
@@ -18,11 +20,11 @@ Database.then(async db => {
         opening_hours: "Horário de visitas Das 8h até 10h",
         open_on_weekends: "1",
         help: "Aceitamos brinquedos"
-    })*/
+    })
 
     // consultar dados da tabela
     const selectedOrphanages = await db.all("SELECT * FROM orphanages")
-    console.log(selectedOrphanages)
+    console.log(selectedOrphanages)*/
 
     // consultar somente 1 pelo ID
     //const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "3"')

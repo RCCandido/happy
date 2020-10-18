@@ -3,8 +3,6 @@ const saveOrphanage = require('./saveOrphanage');
 
 Database.then(async db => {
     
-    //const selectedOrphanages = await db.all("DROP TABLE orphanages")
-    
     // inserir dados na tabela
     /*await saveOrphanage(db, {
         lat: "-25.4328122",
